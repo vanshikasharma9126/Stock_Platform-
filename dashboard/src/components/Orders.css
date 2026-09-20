@@ -1,0 +1,227 @@
+.orders-page {
+  padding: 30px 35px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.orders-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+.orders-header h2 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.orders-header p {
+  margin: 6px 0 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.place-order-btn {
+  background: #387ed1;
+  color: white;
+  border: none;
+  padding: 11px 18px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.place-order-btn:hover {
+  background: #2f6db8;
+}
+
+.order-form-container {
+  background: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  padding: 25px;
+  margin-bottom: 25px;
+  max-width: 600px;
+}
+
+.order-form-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 22px;
+}
+
+.order-form-header h3 {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.close-order-form {
+  border: none;
+  background: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #777;
+}
+
+.form-row {
+  margin-bottom: 18px;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 7px;
+  font-size: 13px;
+  color: #555;
+}
+
+.form-row select,
+.form-row input {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  outline: none;
+}
+
+.form-row select:focus,
+.form-row input:focus {
+  border-color: #387ed1;
+}
+
+.order-type-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.order-type-buttons button {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.order-type-buttons .active-buy {
+  background: #387ed1;
+  color: white;
+  border-color: #387ed1;
+}
+
+.order-type-buttons .active-sell {
+  background: #e55353;
+  color: white;
+  border-color: #e55353;
+}
+
+.order-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 25px;
+}
+
+.cancel-btn,
+.confirm-buy-btn,
+.confirm-sell-btn {
+  padding: 10px 18px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+}
+
+.cancel-btn {
+  background: #eee;
+  color: #444;
+}
+
+.confirm-buy-btn {
+  background: #387ed1;
+  color: white;
+}
+
+.confirm-sell-btn {
+  background: #e55353;
+  color: white;
+}
+
+.orders-table-container {
+  background: white;
+  border: 1px solid #e3e3e3;
+  border-radius: 6px;
+  overflow-x: auto;
+}
+
+.orders-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.orders-table th {
+  text-align: left;
+  padding: 15px 18px;
+  background: #fafafa;
+  color: #777;
+  font-weight: 500;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+.orders-table td {
+  padding: 17px 18px;
+  border-bottom: 1px solid #eee;
+  color: #444;
+}
+
+.orders-table tbody tr:hover {
+  background: #fafafa;
+}
+
+.stock-name {
+  font-weight: 600;
+  color: #333 !important;
+}
+
+.order-buy {
+  color: #148f4b;
+  background: #e9f8ef;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.order-sell {
+  color: #d64545;
+  background: #fdecec;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.status-complete {
+  color: #148f4b;
+  font-size: 13px;
+}
+
+.empty-orders {
+  text-align: center;
+  padding: 70px 20px;
+  color: #777;
+}
+
+.empty-orders h3 {
+  color: #444;
+  margin-bottom: 8px;
+}
+
+.empty-orders p {
+  margin: 0;
+}
