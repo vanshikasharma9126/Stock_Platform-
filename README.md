@@ -98,3 +98,55 @@ The platform provides a complete authentication system.
                         │
                         ▼
              Protected API Requests
+📊 Trading Dashboard
+The dashboard provides a brokerage-style interface for managing a simulated investment portfolio.
+Dashboard Sections
+📈 Summary
+👀 Watchlist
+💰 Funds
+📦 Holdings
+📊 Positions
+🧾 Orders
+📑 Reports
+The dashboard is connected to the backend through REST APIs and displays user-specific portfolio information.
+👀 Watchlist
+The watchlist allows users to monitor selected stocks.
+Each stock displays information such as:
+Stock symbol
+Current price
+Percentage movement
+Positive/negative movement
+Example stocks included in the simulated market data:
+INFY
+TCS
+ONGC
+WIPRO
+RELIANCE
+HUL
+M&M
+KPITTECH
+QUICKHEAL
+Market prices are simulated/static data for demonstration purposes.
+🛒 BUY & SELL System
+One of the main features of the application is the simulated trading system.
+BUY Order
+When a user places a BUY order:
+BUY
+ │
+ ▼
+Validate Order
+ │
+ ▼
+Check Available Funds
+ │
+ ▼
+Create Order
+ │
+ ▼
+Deduct Balance
+ │
+ ▼
+Update Holdings
+ │
+ ▼
+Update Positions
