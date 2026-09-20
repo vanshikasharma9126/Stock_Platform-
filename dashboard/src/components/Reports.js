@@ -154,7 +154,6 @@ const Reports = () => {
   const downloadPDF = () => {
     const doc = new jsPDF();
 
-    const pageWidth = doc.internal.pageSize.getWidth();
     const pageHeight = doc.internal.pageSize.getHeight();
 
     let y = 20;
