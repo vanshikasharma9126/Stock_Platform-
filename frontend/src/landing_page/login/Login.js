@@ -50,7 +50,7 @@ const Login = () => {
       );
 
       window.location.href =
-        "http://localhost:3001?token=" +
+        "https://stock-platform-dashboard-show.vercel.app?token=" +
         encodeURIComponent(data.token);
     } catch (error) {
       console.error(error);

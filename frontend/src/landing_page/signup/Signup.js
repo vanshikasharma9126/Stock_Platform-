@@ -79,7 +79,7 @@ const Signup = () => {
 
       setTimeout(() => {
         window.location.href =
-          "http://localhost:3001?token=" +
+          "https://stock-platform-dashboard-show.vercel.app?token=" +
           encodeURIComponent(data.token);
       }, 1200);
     } catch (error) {
